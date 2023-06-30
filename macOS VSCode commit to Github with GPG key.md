@@ -1,5 +1,5 @@
 
-1. open terminal 
+1. Open terminal 
 2. Set your commit userName and email
   
 ```
@@ -12,18 +12,18 @@ The email address could be your email address. To protect the privacy, you could
 ```
 git config --global user.email "your no-repley@users.noreply.github.com"
 ```
-4. list the long form of the GPG keys. 
+4. List the long form of the GPG keys. 
 ```
 gpg --list-secret-keys --keyid-format=long
 ```
-5. set your primary GPG signing key in Git, substituting the GPG primary key ID xxxxxxxxxxxxxxxx with your GPG key ID
+5. Set your primary GPG signing key in Git, substituting the GPG primary key ID xxxxxxxxxxxxxxxx with your GPG key ID
 
 In the listed [keyboxd], line sec .../xxxxxxxxxxxxxxxx date [SC], xxxxxxxxxxxxxxxx is your GPG key ID.
 
 ```
 git config --global user.signingkey xxxxxxxxxxxxxxxx
 ```
-6. configure Git to sign all commits by default
+6. Configure Git to sign all commits by default
 ```
 git config --global commit.gpgsign true
 ```
