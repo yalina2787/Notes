@@ -18,6 +18,8 @@ gpg --list-secret-keys --keyid-format=long
 ```
 5. set your primary GPG signing key in Git, substituting the GPG primary key ID xxxxxxxxxxxxxxxx with your GPG key ID
 
+In the listed [keyboxd], line sec .../xxxxxxxxxxxxxxxx date [SC], xxxxxxxxxxxxxxxx is your GPG key ID.
+
 ```
 git config --global user.signingkey xxxxxxxxxxxxxxxx
 ```
@@ -25,10 +27,15 @@ git config --global user.signingkey xxxxxxxxxxxxxxxx
 ```
 git config --global commit.gpgsign true
 ```
-7. 
- Optionally, to prompt you to enter a PIN or passphrase when required, install pinentry-mac. For example, using Homebrew:
+7. Install pinentry-mac. When submitting code change to Github, VSCode will use pinentry-mac to show a dialog and let you enter the password for the GPG key.
+```
 brew install pinentry-mac
+```
+```
 echo "pinentry-program $(which pinentry-mac)" >> ~/.gnupg/gpg-agent.conf
+```
+```
 killall gpg-agent
+```
 
 
