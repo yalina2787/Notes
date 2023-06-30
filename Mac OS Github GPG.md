@@ -32,10 +32,21 @@ Recommended by Github, press ```0``` to select Key does not expire at all.
 10. GnuPG needs to construct a user ID to identify your key.
 Enter your user name
 11. Email address, use your GitHub-provided no-reply email address
-To find the no-reply email address: github setting => email => fing the your no-reply email address with @users.noreply.github.com
+To find the no-reply email address: github setting => email => fing the your no-reply email address with @users.noreply.github.com .
 12. comment: any comment you want to enter
 13. You selected USER_ID?
 Check whether anything need to be changed, if everything is correct for you, press ```o``` (okay) to continue.
+14. please enter the passphrase
+Setting your GPG key password.
+15. Get your GPG key ID 
+```gpg --list-secret-keys --keyid-format=long```
+[keyboxd]
+----------------
+sec   ..../xxxxxxxxxxxxxxxx date [SC] , xxxxxxxxxxxxxxxx is your GPG key ID
+16. export the GPG key ID xxxxxxxxxxxxxxxx in ASCII armor format, substituting in the GPG key ID xxxxxxxxxxxxxxxx with your GPG key ID.
+```gpg --armor --export xxxxxxxxxxxxxxxx```
+17. 
+Copy your GPG key, beginning with -----BEGIN PGP PUBLIC KEY BLOCK----- and ending with -----END PGP PUBLIC KEY BLOCK-----.
 
 
 
