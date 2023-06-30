@@ -31,7 +31,7 @@ Recommended by Github, press ```0``` to select Key does not expire at all.
 9. Is this correct? ```y```
 10. GnuPG needs to construct a user ID to identify your key.
 Enter your user name
-11. Email address, \b use your GitHub-provided no-reply email address
+11. Email address, use your GitHub-provided no-reply email address
 To find the no-reply email address: github setting => email => fing the your no-reply email address with @users.noreply.github.com .
 12. comment: any comment you want to enter
 13. You selected USER_ID?
