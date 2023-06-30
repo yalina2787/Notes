@@ -1,6 +1,6 @@
 # Create an GPG key
 
-Open terminal
+##Open terminal
 1. Install Homebrew 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -9,6 +9,12 @@ Open terminal
 ```
 brew help
 ```
-
-4. Type in: brew install gnupg
+3. Install GPG
+```
+brew install gnupg
+```
+4. Check GPG version
+```
+gpg --version
+```
 
