@@ -44,6 +44,7 @@ Setting your GPG key password.
 
 [keyboxd]
 ------ sec   ..../xxxxxxxxxxxxxxxx date  [SC] , xxxxxxxxxxxxxxxx is your GPG key ID
+
 17. Export the GPG key ID xxxxxxxxxxxxxxxx in ASCII armor format, substituting in the GPG key ID xxxxxxxxxxxxxxxx with your GPG key ID.
 
 ```gpg --armor --export xxxxxxxxxxxxxxxx```
