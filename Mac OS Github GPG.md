@@ -41,10 +41,13 @@ Setting your GPG key password.
 15. Get your GPG key ID.
     
 ```gpg --list-secret-keys --keyid-format=long```
+
 [keyboxd]
 ------ sec   ..../xxxxxxxxxxxxxxxx date  [SC] , xxxxxxxxxxxxxxxx is your GPG key ID
 17. Export the GPG key ID xxxxxxxxxxxxxxxx in ASCII armor format, substituting in the GPG key ID xxxxxxxxxxxxxxxx with your GPG key ID.
+
 ```gpg --armor --export xxxxxxxxxxxxxxxx```
+
 18. Add new GPG key in github profile
 Github setting => SSH keys and GPG keys => new GPG key, paste your exported armor format form the step 16.
 
