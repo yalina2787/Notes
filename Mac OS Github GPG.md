@@ -41,7 +41,7 @@ Setting your GPG key password.
 15. Get your GPG key ID 
 ```gpg --list-secret-keys --keyid-format=long```
 [keyboxd]
-----------------
+------
 sec   ..../xxxxxxxxxxxxxxxx date [SC] , xxxxxxxxxxxxxxxx is your GPG key ID
 16. Export the GPG key ID xxxxxxxxxxxxxxxx in ASCII armor format, substituting in the GPG key ID xxxxxxxxxxxxxxxx with your GPG key ID.
 ```gpg --armor --export xxxxxxxxxxxxxxxx```
