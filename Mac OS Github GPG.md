@@ -38,7 +38,8 @@ To find the no-reply email address: github setting => email => fing the your no-
 Check whether anything need to be changed, if everything is correct for you, press ```o``` (okay) to continue.
 14. please enter the passphrase
 Setting your GPG key password.
-15. Get your GPG key ID 
+15. Get your GPG key ID.
+    
 ```gpg --list-secret-keys --keyid-format=long```
 [keyboxd]
 ------ sec   ..../xxxxxxxxxxxxxxxx date  [SC] , xxxxxxxxxxxxxxxx is your GPG key ID
