@@ -45,11 +45,11 @@ Setting your GPG key password.
 [keyboxd]
 ------ sec   ..../xxxxxxxxxxxxxxxx date  [SC] , xxxxxxxxxxxxxxxx is your GPG key ID
 
-17. Export the GPG key ID xxxxxxxxxxxxxxxx in ASCII armor format, substituting in the GPG key ID xxxxxxxxxxxxxxxx with your GPG key ID.
+16. Export the GPG key ID xxxxxxxxxxxxxxxx in ASCII armor format, substituting in the GPG key ID xxxxxxxxxxxxxxxx with your GPG key ID.
 
 ```gpg --armor --export xxxxxxxxxxxxxxxx```
 
-18. Add new GPG key in github profile
+17. Add new GPG key in github profile
 Github setting => SSH keys and GPG keys => new GPG key, paste your exported armor format form the step 16.
 
 -----BEGIN PGP PUBLIC KEY BLOCK----- your armor format GPG key ID -----END PGP PUBLIC KEY BLOCK-----.
